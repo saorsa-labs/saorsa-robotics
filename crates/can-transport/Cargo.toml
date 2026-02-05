@@ -22,6 +22,7 @@ thiserror.workspace = true
 tracing.workspace = true
 time.workspace = true
 serialport = { version = "4", optional = true }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }
 
 [dev-dependencies]
 anyhow.workspace = true

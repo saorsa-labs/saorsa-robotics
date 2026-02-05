@@ -21,4 +21,5 @@ vla-policy = { path = "../../crates/vla-policy", default-features = false }
 safety-guard = { path = "../../crates/safety-guard", features = ["watchdogs"] }
 continual-learning = { path = "../../crates/continual-learning", default-features = false, features = ["data-collection"] }
 intent-parser = { path = "../../crates/intent-parser" }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }
 

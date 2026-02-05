@@ -19,3 +19,4 @@ vla-policy = { path = "../vla-policy", default-features = false }
 
 # Device registry for joint control
 device-registry = { path = "../device-registry", default-features = false }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }

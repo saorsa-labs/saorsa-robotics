@@ -17,6 +17,7 @@ anyhow.workspace = true
 time.workspace = true
 schemars = { version = "0.8", features = ["derive"], optional = true }
 can-transport = { path = "../can-transport" }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }
 
 [features]
 schema = ["dep:schemars"]

@@ -31,3 +31,4 @@ tempfile = "3.10"
 dirs = "5.0"
 safetensors = "0.4"
 bytemuck = { version = "1.16", features = ["extern_crate_alloc"] }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }

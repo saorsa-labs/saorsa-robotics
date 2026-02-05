@@ -32,3 +32,4 @@ evalexpr = "11.0"
 
 # VLA policy integration
 vla-policy = { path = "../vla-policy", default-features = false }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }

@@ -35,6 +35,7 @@ rand = "0.8"
 candle-core = { version = "0.6", optional = true }
 candle-nn = { version = "0.6", optional = true }
 candle-transformers = { version = "0.6", optional = true }
+workspace-hack = { version = "0.1", path = "../../workspace-hack" }
 
 [dev-dependencies]
 tokio = { version = "1", features = ["rt", "macros"] }
