@@ -209,34 +209,3 @@ pub enum InterventionType {
     Recovery,
 }
 
-/// Dataset for training
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Dataset {
-    /// Dataset identifier
-    pub id: String,
-    /// Dataset name
-    pub name: String,
-    /// Number of samples
-    pub num_samples: usize,
-    /// Data sources included
-    pub sources: Vec<String>,
-    /// Creation timestamp
-    pub created_at: f64,
-    /// Dataset statistics
-    pub statistics: DatasetStats,
-}
-
-/// Dataset statistics
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct DatasetStats {
-    /// Average reward
-    pub avg_reward: f64,
-    /// Reward standard deviation
-    pub reward_std: f64,
-    /// Number of interventions
-    pub num_interventions: usize,
-    /// Task success rate
-    pub success_rate: f64,
-    /// Average episode length
-    pub avg_episode_length: f64,
-}
